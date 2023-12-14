@@ -1,0 +1,17 @@
+digraph G {
+ ranksep = 0.25;
+ edge [arrowsize = 0.5]
+node [color = "#FF0000",fillcolor = "#FF0000",fontcolor = "#000000",fontname = Helvetica,shape = circle,style = filled];
+Multi;
+node [color = "#00BFFF",fillcolor = "#00BFFF",fontcolor = "#000000",fontname = Helvetica,shape = circle,style = filled];
+Add;
+ node [color = "#7CFC00",fillcolor = "#7CFC00",fontcolor = "#000000",fontname = Helvetica,shape = circle,style = filled];
+fac;
+node [color = "#FF00FF",fillcolor = "#FF00FF",fontcolor = "#000000",fontname = Helvetica,shape = circle,style = filled];
+main;
+ main -> Multi;
+ main -> Add;
+ main -> print;
+ main -> print;
+ main -> fac;
+}

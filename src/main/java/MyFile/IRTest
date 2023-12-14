@@ -1,0 +1,15 @@
+//测试用例
+int max(int num1, int num2){
+    if(num1 > num2){
+        return num1;
+    }else{
+        return num2;
+    }
+}
+
+int main(){
+    a = 1;
+    b = a * 2;
+    c = max(a, b);
+    return c;
+}

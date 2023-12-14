@@ -1,0 +1,23 @@
+void main(){
+    int n = 2;
+    d();
+    a();
+    fac(n);
+    2*3;
+}
+int fac(int n){
+    return n;
+}
+void a(){
+    b();
+    e();
+}
+void b(){
+    i();
+}
+void c(){
+   g();
+}
+void f(){g();i();}
+void g(){}
+void k(){}
